@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <script src="js/jquery.js"></script>
     <title>CoolCat_And_Plenty</title>
 </head>
 <body>
@@ -13,54 +12,49 @@
         <div class="container">
             <div class="header_inner">
                 <div class="header_logo">
-                    <a class="logo" href="main.html">Лабораторная работа №1</a>
+                    <a class="logo" href="main.html">Лабораторная работа №2</a>
                 </div>
                 <div class="header_author">Шайхаттаров И.И.</div>
             </div>
          </div>
     </header>
 
-   <div class="container">
-        <div class="task">
-            <p><div class="text">Разработать программу на JS выполняющую 
-            операции с двумя множествами: объедининение, <br>пересечение, дополнение, 
-            симметрическая разность, отрицание и индивидуальное задание. 
-            </div></p>
-        </div>
+   <div class="main_area">
+        <p><div class="text">Разработать программу, определяющую свойства отношения. 
+            Формат ввода определяется заданием. 
+            Необходимо выполнить проверку корректности ввода отношения.
+        </div></p>
 
-        <div class="input_plenty">
-             <div class="first_plenty">
-                <p><strong class="title_first">Первое множество</strong></p>
-                <p><input maxlength="24" size="30" class="input_area"
-                     placeholder="Первое множество" id="fst_inp"></p>
-            </div>
-            <div class="second_plenty">
-                <p><strong class="title_second">Второе множество</strong></p>
-                <p><input maxlength="24" size="30" class="input_area" placeholder="Второе множество" id="scnd_inp"></p>
-            </div> 
-        </div>
 
         <div class="meme">
             <img class="cool_cat" src="img/CoolCat.jpg" width="300" height="300">
             <p>"Кто множества не знает, того на ноль поделю!"</p>
-        </div>
+       </div>
 
-        <div class="buttons">
-            <input type ='button' id='unionButton' class='button' value='Объедининение'>
-            <input type='button' id='matchesButton' class='button' value='Пересечение'>
-            <input type='button' id='extensionButton' class='button' value='Дополнение'>
-            <input type='button' id='simDifButton' class='button' value='Сим. разность'>
-            <input type='button' id='differenceButton' class='button' value='Отрицание'>
-            <input type='button' id='sortSumButton' class='button' value='Сортировка'>
-        </div>
-
-        <div class="result">
-            <p><strong class="text_result">Результат</strong></p>
-            <p><input maxlength="48" size="50" class="result_area" 
-                placeholder="Результат" id="result" value=""></p>
+       <div class="input">
+           <input type="text" class="width" size="1" maxlength="2">
+           <input type="text" class="height" size="1" maxlength="2">
+           <textarea class="area" placeholder="Введите матрицу" ></textarea>
+       </div>
    </div>
 
    <script src="js/script.js"></script>
 
 </body>
 </html>
+
+
+<!--
+    <div class="result">
+    <p><strong class="text_result">Результат</strong></p>
+    <p><input maxlength="48" size="50" class="result_area" 
+        placeholder="Результат" id="result" value=""></p>
+</div>
+
+<div class="input_plenty">
+    <div class="first_plenty">
+       <p><strong class="title_first">Первое множество</strong></p>
+       <p><input maxlength="24" size="30" class="input_area"
+            placeholder="Первое множество" id="fst_inp"></p>
+</div>
+-->
