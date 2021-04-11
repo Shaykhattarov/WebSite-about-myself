@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+
+    font-size: 14px;
+}
+
+
+
+*,
+*:before,
+*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+
+/*Header*/
+header{
+    background-color: black;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+
+    border-bottom: 1px solid #515369;
+}
+
+.header_author{
+    font-size: 24px;
+    color: white;
+}
+
+.header_logo{
+    font-size: 26px;
+    text-align: center;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*Input*/
+.input_plenty{
+    width:50%;
+
+    margin: 20px;
+    margin-top: 30px;
+
+    font-size:  18px;
+}
+
+.first_area{
+    font-size: 15px;
+
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+/*Task*/
+.task{
+    width: 900px;
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+
+
+/*Meme*/
+.meme{
+    width: 350px;
+    margin-left: 900px;
+    margin-top: -240px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.cool_cat{
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+
+
+/*Button*/
+.button{
+    width: 137px;
+    height: 50px;
+
+    color: black;
+    font-size: 16px;
+
+    border-radius: 8px;
+    border: 2px solid black;
+
+    background-color: rgb(177, 174, 174);
+
+    
+    transition: all 1s;
+}
+
+.button:hover{
+    background-color:white;
+    transition: all 0.4s;
+}
+
+
+
+/*Result*/
+.result{
+    width: 328px;
+    margin-left: 400px;
+    margin-top: -322px;
+}
+
+.text_result{
+    font-size: 18px;
+}
