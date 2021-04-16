@@ -1,9 +1,8 @@
 body{
+    width: 100%;
     margin: 0;
-
     font-size: 14px;
 }
-
 
 
 *,
@@ -15,19 +14,20 @@ body{
 .container{
     width: 100%;
     max-width: 1300px;
-    margin-left: 70px;
+    margin: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
+
 
 
 /*Главная область*/
 .main_area{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
     margin-top: 20px;
     margin-left: 20px;
 
-    display: flex;
-    justify-content: space-between;
 }
 
 
@@ -75,7 +75,14 @@ header{
 
 /*Meme*/
 .meme{
-    font-size: 16px;
+    width: 400px;
+    height: 350px;
+    font-size: 18px;
+
+    margin-left: 900px;
+    margin-top: -50px;
+
+    text-align: center;
 }
 
 .cool_cat{
@@ -89,34 +96,44 @@ header{
 
 
 /*Button*/
-.buttons{
-    width: 137px;
-    height: 50px;
+.resultButton{
+    width: 243px;
     color: black;
     
     font-size: 16px;
     border-radius: 8px;
-    border: 2px solid black;
-    background-color: rgb(177, 174, 174);
+    border: 1px solid black;
+    background-color: rgb(145, 140, 140);
 
     transition: all 1s;
 }
 
-.button:hover{
-    background-color:white;
+.resultButton:hover{
+    background-color:rgb(157, 157, 187);
     transition: all 0.4s;
 }
 
-
-
-/*Result
-.result{
-    width: 328px;
-    margin-left: 400px;
-    margin-top: -322px;
-}
-
-.text_result{
+/*Input*/
+.input{
+    width: 250px;
+    height: 80px;
+    margin-top: -280px;
+    
     font-size: 18px;
+    text-align: center;
 }
-*/
+
+.area{
+    width: 243px;
+    height: 150px;
+    border-color:black;
+}
+
+.width,
+.height{
+    width: 120px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-color: black;
+}

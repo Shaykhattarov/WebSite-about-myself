@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>CoolCat_And_Plenty</title>
+   
+    <title>CoolCat_And_Plenty_2</title>
 </head>
 <body>
     <header class="header">
@@ -29,16 +30,20 @@
         <div class="meme">
             <img class="cool_cat" src="img/CoolCat.jpg" width="300" height="300">
             <p>"Кто множества не знает, того на ноль поделю!"</p>
-       </div>
+        </div>
 
-       <div class="input">
-           <input type="text" class="width" size="1" maxlength="2">
-           <input type="text" class="height" size="1" maxlength="2">
-           <textarea class="area" placeholder="Введите матрицу" ></textarea>
-       </div>
+        <div class="input">
+           <b>Ввод данных:</b><br>
+           <input type="text" class="width" id="width" size="1" maxlength="2" placeholder="Введите ширину">
+           <input type="text" class="height" id="height" size="1" maxlength="2" placeholder="Введите высоту">
+           <textarea class="area" id='matrix' placeholder="Введите матрицу"></textarea>
+           <input type="button" class="resultButton" value="Выполнить">
+        </div>
+
+ 
    </div>
 
-   <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
