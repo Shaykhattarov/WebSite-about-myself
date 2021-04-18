@@ -129,8 +129,7 @@ header{
     border-color:black;
 }
 
-.width,
-.height{
+.rows{
     width: 120px;
     height: 25px;
     margin-bottom: 5px;
