@@ -24,6 +24,7 @@ body{
 /*Главная область*/
 .main_area{
     width: 100%;
+    height: 350px;
     max-width: 1300px;
     margin-top: 20px;
     margin-left: 20px;
@@ -79,7 +80,7 @@ header{
     height: 350px;
     font-size: 18px;
 
-    margin-left: 900px;
+    margin-left: 1000px;
     margin-top: -50px;
 
     text-align: center;
@@ -114,9 +115,9 @@ header{
 }
 
 /*Input*/
-.input{
+.Areas{
     width: 250px;
-    height: 80px;
+    height: 240px;
     margin-top: -280px;
     
     font-size: 18px;
@@ -129,10 +130,21 @@ header{
     border-color:black;
 }
 
-.rows{
-    width: 120px;
+.smallArea{
     height: 25px;
     margin-bottom: 5px;
     margin-top: 10px;
     border-color: black;
 }
+
+/*Output*/
+.result{
+    width: 150px;
+    height: 100px;
+    margin-top: -240px;
+    margin-left: 350px;
+
+    font-size: 18px;
+    text-align: center;
+}
+

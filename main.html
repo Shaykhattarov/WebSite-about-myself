@@ -31,33 +31,23 @@
             <p>"Кто множества не знает, того на ноль поделю!"</p>
         </div>
 
-        <div class="input">
+        <div class="Areas">
            <b>Ввод данных:</b><br>
-           <input type="text" class="rows" id="rows" size="1" maxlength="2" placeholder="Введите размер">
+           <input type="text" class="smallArea" id="rows" size="20" maxlength="2" placeholder="Введите размер">
            <textarea class="area" id='matrix' placeholder="Введите матрицу"></textarea>
-           <input type="button" class="resultButton" value="Выполнить">
+           <input type="button" id="resultButton" class="resultButton" value="Выполнить">
         </div>
 
- 
+        <div class="result">
+            <b>Вывод:</b><br>
+            <input maxlength="50" size="85" class="smallArea" 
+            placeholder="Результат" id="resultOut" value="">
+        </div>
+    </div>
+
    </div>
 
     <script src="js/script.js"></script>
 
 </body>
 </html>
-
-
-<!--
-    <div class="result">
-    <p><strong class="text_result">Результат</strong></p>
-    <p><input maxlength="48" size="50" class="result_area" 
-        placeholder="Результат" id="result" value=""></p>
-</div>
-
-<div class="input_plenty">
-    <div class="first_plenty">
-       <p><strong class="title_first">Первое множество</strong></p>
-       <p><input maxlength="24" size="30" class="input_area"
-            placeholder="Первое множество" id="fst_inp"></p>
-</div>
--->
